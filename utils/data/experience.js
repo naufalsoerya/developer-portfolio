@@ -1,14 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Apr 2024 - Present)"
+    title: 'Software Engineer',
+    company: "Altha Consulting",
+    duration: "(June 2025 - Present)"
   },
   {
     id: 2,
     title: 'Software Developer',
-    company: "PT. Pro Insani Cendekia (freelance)",
+    company: "Phiraka Sinergi Indonesia",
+    duration: "(June 2024 - June 2025)"
+  },
+  {
+    id: 3,
+    title: "Software Developer",
+    company: "Pro Insani Cendekia",
     duration: "(Nov 2023 - Apr 2024)"
   },
 ]
