@@ -15,6 +15,6 @@ export const experiences = [
     id: 3,
     title: "Software Developer",
     company: "Pro Insani Cendekia",
-    duration: "(Nov 2023 - Apr 2024)"
+    duration: "(June 2023 - Present)"
   },
 ]

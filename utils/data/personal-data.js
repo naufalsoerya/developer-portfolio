@@ -2,7 +2,7 @@ export const personalData = {
   name: "Naufal Surya",
   profile: '/profile.png',
   designation: "Software Engineer",
-  description: "My name is Naufal Surya. I am a motivated and hard working Software Engineer. I am a fast worker who works systematically, and always eager to learn a lot of new things. Began my programming journey by finishing Hacktiv8 bootcamp as a full-stack developer, having decided to leave my previous study in science field to pursue what has been a lifelong passion, technology.",
+  description: "Software Engineer specializing in system architecture, security focused development, and scalable solutions. Leveraging fullstack expertise alongside emerging AI engineering capabilities to build intelligent, robust applications. Committed to holistic system design that balances performance, maintainability, and security. Fast learner with a systematic approach to problem solving, driven by a lifelong passion for technology.",
   email: 'naufalsurya.official@gmail.com',
   phone: '+62(81298082677)',
   address: 'South Jakarta, Indonesia - 12210 ',
@@ -11,5 +11,5 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/naufalsurya/',
   twitter: 'https://x.com/naufalsoerya',
   devUsername: "naufalsoerya",
-  resume: "https://drive.google.com/file/d/163toQp8MfiwI-sdZCtdQQebF26iBAhtn/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1xuCaWUZ2oA45Itqt1igvt-l64LiUkB1v/view?usp=sharing"
 }

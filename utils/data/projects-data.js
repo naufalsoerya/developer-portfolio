@@ -1,49 +1,59 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from '../../public/image/ayla.jpg';
+import crefin from '../../public/image/crefin.jpg';
+import realEstate from '../../public/image/real-estate.jpg';
+import travel from '../../public/image/travel.jpg';
 
 export const projectsData = [
     {
         id: 1,
-        name: 'Foodie Finder',
-        description: "Introducing a cutting-edge mobile application designed to help users discover menus and restaurants effortlessly using AI and Google Maps API! This innovative app combines intelligent recommendations and advanced mapping technology to guide users to the perfect dining experience. Whether you're craving a specific cuisine or want to explore new options nearby, this app provides personalized suggestions based on your tastes and location. Enhance your culinary adventures with a seamless and intuitive interface that connects you to the best dining options around!.",
-        tools: ['React Native', 'Expo Go', 'OpenAI API', 'Google Maps API', 'Express', 'Mongo DB', 'Tailwind CSS', 'AWS', 'Jest'],
-        role: 'Full Stack Developer',
-        code: 'https://github.com/fp-foodie-finder',
-        demo: 'https://drive.google.com/file/d/1ULQknLsOFhCbNTboxlb1HPuuDnL-rbxN/view?usp=sharing',
+        name: 'Intelligent Stock Market Analysis',
+        description: "AI powered stock market analytics platform that processes End-of-Day and broker summary data to generate daily stock watchlists and trading signals.",
+        tools: ['FastAPI', 'NextJS', 'TypeScript', 'OpenAI API', 'Machine Learning', 'PostgreSQL'],
+        role: 'Software Engineer',
+        code: '',
+        demo: 'https://drive.google.com/drive/folders/1f5I_8m5Ozb_o5TMkFN4go-SAv30Uq8Dq',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Facebook Clone',
-        description: 'Discover a captivating mobile-based social media application crafted to bring the Facebook experience to your fingertips!. Immerse yourself in the familiar, engaging features of a social network that allows you to connect with friends and share moments effortlessly. Visit the project to learn more about this exciting development!.',
-        tools: ['React Native', 'Expo Go', "GraphQL", "Redis", "Apollo Server", "Apollo Client", "Mongo DB", "Tailwind CSS", "AWS"],
-        role: 'Full Stack Developer',
-        code: 'https://github.com/naufalsoerya/Facebook-Clone',
-        demo: 'https://drive.google.com/file/d/13K7t1UkMkyT2Lz2Bzbvs7uvaleCj1aFR/view?usp=drive_link',
+        name: 'Scalable Learning Management System',
+        description: 'Learning Management System for online training platforms, enabling administrators to manage courses, learning materials, and course purchases through a centralized dashboard',
+        tools: ['FastAPI', 'NextJS', 'TypeScript', 'PostgreSQL'],
+        role: 'Software Engineer',
+        code: '',
+        demo: 'https://drive.google.com/drive/folders/1niYAKtt2AjcJWM3SHmQIyIF-k6b0wkan?usp=drive_link',
         image: travel,
     },
     {
         id: 3,
-        name: 'McDonalds Clone',
-        description: 'Explore an immersive web-based e-commerce application inspired by a beloved fast-food chain! Discover the dynamic features and user-friendly interface. Dive into a world where you can experience the convenience and fun of an interactive fast-food website. Please kindly check my project!.',
-        tools: ['React', 'NextJS', 'TypeScript', 'MongoDB', 'Tailwind CSS', 'Vercel', 'JWT'],
-        code: 'https://github.com/naufalsoerya/McDonalds-Clone',
-        role: 'Full Stack Developer',
-        demo: 'https://drive.google.com/file/d/1B3-m9ya1SsNdrToBO0AiK9sq21HTcj0f/view?usp=drive_link',
+        name: 'Enterprise Internal Management System',
+        description: 'Internal enterprise platform to streamline HR and operational workflows, including attendance management, request approvals, project engagement tracking, and employee time-off management.',
+        tools: ['Laravel', 'NextJS', 'TypeScript', 'MariaDB'],
+        code: '',
+        role: 'Software Engineer',
+        demo: 'https://drive.google.com/drive/folders/1Sy--IPYLQzfXGoJDcNlPVL64wL2Ey-WK',
         image: realEstate,
     },
     {
         id: 4,
-        name: 'Coffee Shop',
-        description: "Discover a web-based application tailored for coffee shop enthusiasts!. This app offers a user-friendly interface for customers to explore the menu, place orders, and engage with their favorite coffee shop. Whether you're looking to customize your drink or order ahead for quick pickup, this app enhances the coffee shop experience with convenience and innovation. Dive in to discover how this project is brewing up a perfect blend of technology and coffee culture!.",
-        tools: ['React', 'Redux', 'Sequelize', 'Express', "Tailwind CSS", "AWS", "Firebase"],
-        code: 'https://github.com/group-project-hck/coffe-shop',
-        demo: 'https://drive.google.com/file/d/19WLGjgxFtuCEt-yKwVc8pNTExX51WKcS/view?usp=sharing',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+        name: 'Scalable Online Examination System',
+        description: "The system is ideal for organizations that need a reliable platform for online assessments, certification exams, recruitment tests, or large-scale training programs.",
+        tools: ['Gin', 'NextJS', 'TypeScript', 'PostgreSQL'],
+        role: 'Software Engineer',
+        code: '',
+        demo: 'https://drive.google.com/drive/folders/1DlUZbsaR-n81z9jK_BdLgoO3aGGvFAYn?usp=sharing',
+        image: crefin,
+    },
+    {
+        id: 5,
+        name: 'AI Powered Restaurant Finder Mobile App',
+        description: "Mobile application that helps users discover restaurants and food menus using AI driven recommendations and location based services.",
+        tools: ['React Native', 'Expo Go', 'OpenAI API', 'Google Maps API', 'Express', 'Mongo DB', 'Tailwind CSS', 'AWS', 'Jest'],
+        role: 'Fullstack Developer',
+        code: 'https://github.com/fp-foodie-finder',
+        demo: 'https://drive.google.com/file/d/1ULQknLsOFhCbNTboxlb1HPuuDnL-rbxN/view?usp=sharing',
+        image: crefin,
+    },
 ];
 
 
